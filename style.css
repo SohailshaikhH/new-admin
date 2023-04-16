@@ -1,0 +1,129 @@
+html {
+  font-size: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: rgb(239 251 255 / 58%);
+}
+.header {
+  background-color: rgb(255 255 255);
+}
+.texts-min {
+  min-width: 63px;
+}
+.section-hero {
+  transition: all 200ms ease-in-out;
+  margin-left: 280px;
+  margin-top: 60px;
+}
+
+.navigation {
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+.sidebar-menu {
+  top: 63px;
+  z-index: 1;
+  overflow: overlay;
+  bottom: 0px !important;
+  left: -19px !important;
+}
+.card {
+  border-color: rgb(255 255 255) !important;
+}
+.pages-card {
+  border-color: rgb(255 255 255);
+}
+.header-logo {
+  width: 235px;
+}
+.brand-name {
+  color: #26306d;
+}
+h6 {
+  font-size: 12px;
+}
+.text-game {
+  font-size: 0px;
+}
+
+.nav-link {
+  color: rgb(3, 34, 75);
+}
+
+.text-size {
+  font-size: 12px;
+}
+.card-img {
+  width: 80px;
+}
+.noti {
+  top: 1px;
+  right: 3px;
+}
+::-webkit-scrollbar {
+  width: 0.9rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #eeeeee;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7748b4;
+  border-radius: 25px;
+  border: 3px solid #eeeeee;
+  margin: 10px;
+}
+.texts-icon {
+  position: relative;
+}
+.texts-icon::before {
+  content: "";
+  position: absolute;
+  background-color: #dbdfff;
+  height: 75px;
+  width: 5px;
+  right: -23px;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.span-text {
+  background-color: rgb(255 255 255);
+}
+.text-logo {
+  z-index: 2;
+}
+#checkbtn {
+  visibility: hidden;
+}
+.btnburger .bi-list {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #012970;
+  font-weight: 700;
+  cursor: pointer;
+}
+#checkbtn:checked ~ .sidebar-menu > .sidebar {
+  width: 300px;
+}
+.sidebar {
+  transition: all 200ms ease-in-out;
+  width: 300px;
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 576px) {
+  .section-hero {
+    margin-left: 0px !important;
+  }
+  .sidebar {
+  }
+}
